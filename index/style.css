@@ -1,0 +1,104 @@
+html{
+	overflow: hidden;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#indexframe{
+	position: fixed;
+	left: 100px;
+	background-color: #666665;
+	color: white;
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	padding: 50px;
+}
+
+#indexdiv{
+	background-color: #4E4E4E;
+	width: 100px;
+	height: 100%;
+	position: absolute;
+}
+
+#secondiv{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 80px;
+	height: 100px;
+	visibility: visible;
+}
+
+#secondivx{
+	position: absolute;
+	margin-left: 35px;
+	margin-top: 10px;
+	width: 80px;
+	height: 100px;
+	visibility: hidden;
+}
+
+img{
+	width: 80px;
+	height: 100px;
+}
+
+#framep{
+  	margin: 0 auto;
+  	margin-right: 12%;
+}
+
+#frametext{
+	position: fixed;
+	width: 82%;
+	height: 80%;
+	border: 0;
+	margin: 0 auto;
+	margin-top:3%;
+	overflow: hidden;
+}
+
+#titlespan{
+	font-size: 30px;
+	position: absolute;
+	margin-left: 30%;
+	color: white;
+}
+
+#add{
+	position: relative;
+	visibility: hidden;
+	top: 90%;
+	margin-left: 60px;
+}
+
+.add{
+	width: 30px;
+	height: 30px;
+}
+
+#bookshelf{
+	background-color: #8E8E8E;
+	position: absolute;
+	top: 150px;
+	visibility: hidden;
+	width: 130px;
+	height: 100%;
+	margin-left: 10px;
+	border-radius: 10px;
+	color: white;
+}
+
+ul{
+	list-style: none;
+	padding-left: 10px;
+}
+
+li{
+	margin: 5px;
+}
